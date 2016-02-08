@@ -1,19 +1,13 @@
 # Chatreact
+=======================
 
-To start your Phoenix app:
+A chat application built in Elixir using the [Phoenix Framework](http://www.phoenixframework.org).
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Start Phoenix endpoint with `mix phoenix.server`
+ROADMAP
+--------
+* Use web sockets for persistent client connections
+* Implement Phoenix channels for delivering client messsages
+* Use React for updating chat messages.
+* Create user accounts and isolated chats.
+* Implement chat groups using channel broadcasting.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
-
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: http://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
