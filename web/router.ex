@@ -17,6 +17,8 @@ defmodule Chatreact.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/chat", ChatController, :index
+    get "/chat/:user", ChatController, :users
   end
 
   # Other scopes may use custom stacks.

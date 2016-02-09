@@ -1,0 +1,4 @@
+<div class="Jumbotron">
+  <h2>This is <%= @user %>'s chat </h2>
+</div>
+
