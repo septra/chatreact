@@ -5,8 +5,9 @@ defmodule Chatreact.ChatController do
     render conn, "index.html"
   end
 
-  def users(conn, %{"user" => user}) do
-    render conn, "users.html", user: user
+  def show(conn, %{"id" => id}) do
+    #json conn, %{id: id, hello: "something"}
+    render conn, "users.html", id: id
   end
 
 end
